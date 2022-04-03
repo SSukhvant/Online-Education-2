@@ -15,8 +15,8 @@ import webdev from '../assets/webdev.png';
 import techinfo from '../assets/techinfo.png';
 import logo2 from '../assets/Logo2.png';
 
-import homebg1 from '../assets/homebg1.png';
-import Homebg2 from '../assets/Homebg2.png';
+import homebg1 from '../assets/Homebg1.png';
+import Homebg2 from '../assets/homebg2.png';
 import accounting from '../assets/Accounting.png';
 import chemistry from '../assets/Chemistry.png';
 import Creative from '../assets/Creative.png';
