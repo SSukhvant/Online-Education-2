@@ -1,5 +1,4 @@
 .app__home {
-    // height: 100vh;
     position: relative;
     margin-top: 5%;
     display: flex;
@@ -9,16 +8,16 @@
 
     .app__home-circlebg {
       position: absolute;
-      top: -16%;
-      right: -8%;
-      height: 750px;
-      width: 750px;
+      top: -15%;
+      right: 0;
+      height: 600px;
+      width: 600px;
       border-radius: 100%;
-      border: 8rem solid var(--background-light);
+      border: 5rem solid var(--background-light);
       z-index: -1;
     }
     .app__homebg2 {
-      z-index: -2;
+      z-index: -1;
     }
 
     @media screen and (max-width: 1400px) {
