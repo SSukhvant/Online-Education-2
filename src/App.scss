@@ -1,0 +1,28 @@
+.app__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-text {
+    font-size: 12px;
+  }
+
+  .head-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+
+  
+    @media screen and (min-width: 2000px) {
+      font-size: 4rem;
+    }
+  
+    @media screen and (max-width: 450px) {
+      font-size: 2rem;
+    }
+  }
