@@ -57,8 +57,8 @@ const Pages = () => {
     <div className='app__page-items'>
     {pagesContent.map((item) => (
       <motion.div
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 0.5, type: 'tween' }}
+      whileInView={{ y: [-100, 0], opacity: [0, 1] }}
+      transition={{ duration: 0.5 }}
       className="app__page-item"
     >
       <a src={item.src} alt="title" className='app__page-course'>{item.title}</a>

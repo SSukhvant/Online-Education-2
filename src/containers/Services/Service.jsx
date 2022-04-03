@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import './Service.scss';
 import { Images } from '../../constants';
 
@@ -38,14 +39,17 @@ const Services = [
 const Service = () => {
   return (
     <div className='app__service'>
-      <div className='app__services'>
+      <motion.div
+      whileInView={{ y: [-100, 0], opacity: [0, 1] }}
+      transition={{ duration: 0.5 }}
+       className='app__services'>
       {Services.map((item) => (
         <div className='app__service-item' style={{backgroundColor: `${item.color}`}}>
         <img src={item.imageURL} alt="Service"/>
         <h4>{item.title}</h4>
         </div>
       ))}
-      </div>
+      </motion.div>
     </div>
   )
 }

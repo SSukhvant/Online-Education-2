@@ -25,6 +25,7 @@ import Engineering from '../assets/Engineering.png';
 import Physics from '../assets/Physics.png';
 import Boy from '../assets/Boy.png';
 import Girl from '../assets/Girl.png';
+import contactbg from '../assets/contactbg.png';
 
 
 export default {
@@ -54,6 +55,7 @@ export default {
     Engineering,
     Physics,
     Boy,
-    Girl
+    Girl,
+    contactbg
 
 };
