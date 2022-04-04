@@ -9,7 +9,7 @@
         flex-direction: column;
 
         .app__page-heading {
-            margin: 1rem;
+            margin-top: 2rem;
          
             h1 {
                 padding-left: 5rem;
@@ -59,7 +59,7 @@
 
             .app__page-item {
 
-                width: 470px;
+                max-width: 450px;
                 display: flex;
                 flex-direction: column;
                 margin: 1rem;
